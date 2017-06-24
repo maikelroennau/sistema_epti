@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Edi&#xe7;&#xe3;o de computadores"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jlEditarComputador" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlNome" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jtNome" min="-2" pref="200" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jlSecretaria" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jlSetor" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jlTecnico" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jlStatus" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jcbTecnico" pref="200" max="32767" attributes="0"/>
+                                          <Component id="jcbSetor" pref="200" max="32767" attributes="0"/>
+                                          <Component id="jcbSecretaria" pref="200" max="32767" attributes="0"/>
+                                          <Component id="jcbStatus" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jlContato" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="jtContato" min="-2" pref="200" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlHoraConclusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlDataConclusao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlHoraEntrada" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlDataEntrada" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlMemorando" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlTelefone" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jtHoraEntrada" alignment="0" pref="63" max="32767" attributes="0"/>
+                                      <Component id="jtDataConclusao" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jtHoraConclusao" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jfMemorando" alignment="0" pref="63" max="32767" attributes="0"/>
+                                      <Component id="jtDataEntrada" alignment="0" pref="63" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jfTelefone" min="-2" pref="79" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jcInstalacaoSO" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcSubstituicaoHD" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcReparacaoSO" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcBackup" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcLimpeza" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jcDriverPack" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcNavegadores" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcAntivirus" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcLibreOffice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcTrocaDeFonte" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jcConversoresPDF" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcFirewallCentralSeg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcJava" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcAdobeReader" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcWinrarFlash" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jlRelatorioManutencao" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jcMarcarTodos" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcIconesDesktop" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcUsuarios" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcDominio" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcAtivacaoWindows" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcUltraVNC" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jSeparator" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jbConverterPDF" min="-2" pref="129" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jbRecadastrar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jbImprimir" min="-2" pref="129" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jbSalvarDados" min="-2" pref="129" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jbCancelar" min="-2" pref="129" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jbVerHistorico" min="-2" pref="129" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jbGravarHistórico" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jlDescricaoProblema" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="613" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jSeparator" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jlEditarComputador" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlSecretaria" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcbSecretaria" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlSetor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcbSetor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlTecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcbTecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jcbStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlContato" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtContato" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlDataEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtDataEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlHoraEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtHoraEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlDataConclusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtDataConclusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlHoraConclusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jtHoraConclusao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlMemorando" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jfMemorando" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jlTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jfTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jlRelatorioManutencao" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="jcLimpeza" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcBackup" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcReparacaoSO" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcInstalacaoSO" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcSubstituicaoHD" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jcDriverPack" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcTrocaDeFonte" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcLibreOffice" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcAntivirus" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcNavegadores" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jcJava" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcAdobeReader" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcWinrarFlash" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcConversoresPDF" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jcFirewallCentralSeg" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="jcMarcarTodos" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jcUsuarios" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jcDominio" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jcUltraVNC" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jcAtivacaoWindows" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jcIconesDesktop" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jlDescricaoProblema" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jbConverterPDF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbGravarHistórico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbVerHistorico" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jbCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbSalvarDados" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbImprimir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbRecadastrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlEditarComputador">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Editar computador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlNome">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtNome">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSecretaria">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Secretaria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbSecretaria">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbSecretariaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSetor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Setor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbSetor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlTecnico">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xe9;cnico:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbTecnico">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlContato">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contato:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtContato">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlTelefone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jfTelefone">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(51)####-####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlMemorando">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Memorando:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jfMemorando">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="####/####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbStatus">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Aguardando manuten&#xe7;&#xe3;o"/>
+            <StringItem index="1" value="Em manuten&#xe7;&#xe3;o"/>
+            <StringItem index="2" value="Conclu&#xed;do"/>
+            <StringItem index="3" value="Descartado"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbStatusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlDataEntrada">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data entrada:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlHoraEntrada">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hora entrada:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlDataConclusao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data conslu&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlHoraConclusao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hora conclus&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtHoraConclusao">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtDataConclusao">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtHoraEntrada">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtDataEntrada">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlRelatorioManutencao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Relat&#xf3;rio de manuten&#xe7;&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcLimpeza">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpeza"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcBackup">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Backup"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcReparacaoSO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repara&#xe7;&#xe3;o S.O."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcInstalacaoSO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Instala&#xe7;&#xe3;o S.O."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcSubstituicaoHD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Substitui&#xe7;&#xe3;o HD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcNavegadores">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Navegadores"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcAntivirus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Antiv&#xed;rus"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcLibreOffice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Libre Office"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcTrocaDeFonte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Troca de fonte"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcDriverPack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Driver Pack"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcWinrarFlash">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Winrar/Flash Player"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcAdobeReader">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adobe Reader"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcConversoresPDF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conversores PDF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcFirewallCentralSeg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Firewall/Central Seg."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcJava">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Java"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcUltraVNC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UltraVNC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcAtivacaoWindows">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ativa&#xe7;&#xe3;o Windows"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcDominio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dom&#xed;nio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcUsuarios">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usu&#xe1;rios"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcIconesDesktop">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xcd;cones desktop"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcMarcarTodos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marcar todos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcMarcarTodosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlDescricaoProblema">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o/problema:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jtaDescricaoProblema">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jbCancelar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/cancelar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbCancelarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbCancelarKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbImprimir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/imprimir.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Imprimir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbImprimirActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbImprimirKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbSalvarDados">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/confirmar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salvar dados"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbSalvarDadosActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbSalvarDadosKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbConverterPDF">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/salvar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Converter PDF"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbConverterPDFActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbConverterPDFKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbGravarHist&#xf3;rico">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/gravar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Gravar Hist&#xf3;rico"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbGravarHist&#xf3;ricoActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbGravarHist&#xf3;ricoKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbVerHistorico">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/verhistorico.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ver hist&#xf3;rico"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbVerHistoricoActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbVerHistoricoKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbRecadastrar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icones/atualizar.png"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbRecadastrarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbRecadastrarKeyPressed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
