@@ -28,6 +28,8 @@ O sistema pode ser usado por qualquer pessoa ou instituição, assim como o cód
 
 O usuário ou a instituição que utilizar o sistema está livre para fazer as nodificações que julgar necessárias ou convenientes (por favor, notificar sobre quaisquer modificações).
 
+Licença: [MIT](https://github.com/maikelronnau/sistema_epti/blob/master/LICENSE)
+
 ## Sobre o desenvolvedor
 
 **Maikel Maciel Rönnau**  
