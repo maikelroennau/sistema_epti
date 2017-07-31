@@ -2,6 +2,8 @@
 
 Sistema desenvolvido para automação do processo de manutenção e armazenamento de históricos de manutenções da Prefeitura Municipal de Gravataí.
 
+O sistema está atualmente em uso pela Prefeitura Municipal de Gravataí.
+
 ## Descrição 
 
 Este sistema tem o objetivo de armazenar os dados de manutenção dos computadores da Prefeitura de Gravataí. Nele é possível registrar a Secretaria e o Setor ao qual o equipamento pertence. Também é possível relacionar os técnicos que executaram procedimentos de manutenção no computador.
