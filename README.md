@@ -30,9 +30,9 @@ O usuário ou a instituição que utilizar o sistema está livre para fazer as n
 
 Licença: [MIT](https://github.com/maikelronnau/sistema_epti/blob/master/LICENSE)
 
-## Sobre o desenvolvedor
+### Author
 
 **Maikel Maciel Rönnau**  
 *Computer Scientist  
-maikel.ronnau@ulbra.edu.br  
-[Linkedin](https://br.linkedin.com/in/maikelronnau)*
+maikel.ronnau@gmail.com  
+[Linkedin](https://br.linkedin.com/in/maikelronnau) - [GitHub](https://github.com/maikelronnau)*
